@@ -54,11 +54,11 @@
                                         <div class="col-sm-4">
                                             <h5>Stones</h5>
                                             <ul>
-                                                <li><a href="javascript:void(0);">Ruby</a>
+                                                <li><a href="static/html/category.jsp">Ruby</a>
                                                 </li>
                                                 <li><a href="javascript:void(0);">Sapphire</a>
                                                 </li>
-                                                <li><a href="javascript:void(0);">Emrald</a>
+                                                <li><a href="javascript:void(0);">Emerald</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -69,7 +69,7 @@
                                                 </li>
                                                 <li><a href="javascript:void(0);">Sapphire</a>
                                                 </li>
-                                                <li><a href="javascript:void(0);">Emrald</a>
+                                                <li><a href="javascript:void(0);">Emerald</a>
                                                 </li>
                                             </ul>
                                             <ul>
@@ -88,7 +88,7 @@
                                                 </li>
                                                 <li><a href="javascript:void(0);">Sapphire</a>
                                                 </li>
-                                                <li><a href="javascript:void(0);">Emrald</a>
+                                                <li><a href="javascript:void(0);">Emerald</a>
                                                 </li>
                                                 <li><a href="category.html">Tourmaline</a>
                                                 </li>

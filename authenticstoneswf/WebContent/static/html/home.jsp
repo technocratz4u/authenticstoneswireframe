@@ -82,6 +82,161 @@
 			<a href="#" class="btn btn-dark">Read More &raquo;</a>
 		</div>
 	</div>
+	<div class="container">
+		<div class="row" id="hot-this-week-title">
+			<div class="col-lg-12">
+				<a href="#">Hot this Week</a>
+			</div>
+		</div>
+		<div class="row" id="hot-this-week-body">
+			<div class="col-lg-12">
+				<div id="hot-this-week-carousel" class="owl-carousel">
+                
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/diamond-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <p class="price">$143.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/diamond-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <del>$280</del><p class="price">$190.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/diamond-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <p class="price">$143.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/emrald-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <del>$280</del><p class="price">$190.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/diamond-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <p class="price">$143.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/ruby-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <del>$280</del><p class="price">$190.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/emrald-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <p class="price">$143.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/ruby-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <del>$280</del><p class="price">$190.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/diamond-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <p class="price">$143.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	                <div class="item">
+	                	<div class="product">
+	                		<div class="flip-container">
+	                			<img src="<%=request.getContextPath()%>/static/img/ruby-3d.jpg" alt="" class="img-responsive">
+	                		</div>
+	                		<div class="text">
+                                <h3><a href="detail.html">Lorem ipsum dolor site malat</a></h3>
+                                <del>$280</del><p class="price">$190.00</p>
+                            </div>
+	                	</div>
+	                </div>
+	
+	              </div>
+			</div>
+		</div>
+	</div>
+	<article id="home-page-testimonial">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2 id="home-page-testimonial-title">Clients who loved us</h2>
+					<div id="home-page-testimonial-body">
+						<div id="home-page-testimonial-carousel" class="owl-carousel">
+		                	<div class="item">
+			                  <p class="home-page-testimonial-text">" Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est."</p>
+			                  <div class="home-page-testimonial-author">April Johns, <span class="place">Canada</span></div>
+		                	</div>
+		                	<div class="item">
+			                  <p class="home-page-testimonial-text">" Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est."</p>
+			                  <div class="home-page-testimonial-author">May Johns, <span class="place">USA</span></div>
+		                	</div>
+		                	<div class="item">
+			                  <p class="home-page-testimonial-text">" Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est."</p>
+			                  <div class="home-page-testimonial-author">July Johns, <span class="place">Thailand</span></div>
+		                	</div>
+		                	<div class="item">
+			                  <p class="home-page-testimonial-text">" Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est. Voluptatum corrupti  quos dolores et quas molestias excepturi sint occaecati cupiditate nonrofficia deserunt mollitia animi id est."</p>
+			                  <div class="home-page-testimonial-author">August Johns, <span class="place">China</span></div>
+		                	</div>
+	                	</div>
+	                	<a href="#" class="btn btn-dark">Read More »</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
 
 	<!-- Home page content end -->
 	

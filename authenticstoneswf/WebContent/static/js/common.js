@@ -16,4 +16,6 @@ $(document).ready(function() {
 	$("#home-navbar").on("affix-top.bs.affix", function() {
 	  $("#header").removeClass("bottom-padded");
 	});
+	
+	
 });

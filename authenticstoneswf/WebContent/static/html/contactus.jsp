@@ -11,8 +11,7 @@
 
     <%@ include file="header_includes.jsp" %>
     
-    <link href="<%=request.getContextPath()%>/static/css/home.css" rel="stylesheet" />
-     <link href="<%=request.getContextPath()%>/static/css/category.css" rel="stylesheet" />
+     <link href="<%=request.getContextPath()%>/static/css/contactus.css" rel="stylesheet" />
     
   </head>
 
@@ -22,7 +21,7 @@
 
 	<!-- Home page content start -->
 	
-        <div id="content">
+        <div id="page-content">
             <div class="container">
 
                 <div class="col-md-12">
@@ -37,41 +36,45 @@
                 <div class="col-md-12">
 
 
-                    <div class="box" id="contact">
-                        <h1>Contact</h1>
+                    <div class="page-box" id="contact">
+                    	<div class="indentMpng">
+                    	<h1>Contact</h1>
 
                         <p class="lead">Are you curious about something? Do you have some kind of problem with our products?</p>
                         <p>We make your vision a reality - contact us with a brief description of your needs and we will give you the special attention you deserve!!</p>
-                        <p>Please feel free to contact us, our customer service center is working for you 24/7.</p>
+                        <p>Your opinion counts and we value your advice. We want to hear what you think of our products and how we can make it easier for you to use</p>
+                        <p>Please feel free to contact us.</p>
+                    	
+                    	</div>
+
 
                         <hr>
 
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 addressDetails">
                                 <h3><i class="fa fa-map-marker"></i> Address</h3>
-                                <p>13/25 New Avenue
-                                    <br>New Heaven
-                                    <br>45Y 73J
-                                    <br>England
+                                <p>388 Sita Building, 4th Fl.  
+                                    <br>Suite 401
+                                    <br>Mahaseak Rd.
+                                    <br>Suriyawongse, Bangrak
+                                    <br>Bangkok 10500
                                     <br>
-                                    <strong>Great Britain</strong>
+                                    <strong>Thailand</strong>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 addressDetails">
                                 <h3><i class="fa fa-phone"></i> Call center</h3>
-                                <p class="text-muted">This number is toll free if calling from Great Britain otherwise we advise you to use the electronic form of communication.</p>
-                                <p><strong>+33 555 444 333</strong>
+                                <p><strong> Fax: +662-635-9263</strong>
                                 </p>
                             </div>
                             <!-- /.col-sm-4 -->
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 addressDetails">
                                 <h3><i class="fa fa-envelope"></i> Electronic support</h3>
-                                <p class="text-muted">Please feel free to write an email to us or to use our electronic ticketing system.</p>
+                                <p class="text-muted">Please feel free to write an email to us</p>
                                 <ul>
-                                    <li><strong><a href="mailto:">info@fakeemail.com</a></strong>
+                                    <li><strong><a href="mailto:">authenticstones@gmail.com</a></strong>
                                     </li>
-                                    <li><strong><a href="#">Ticketio</a></strong> - our ticketing support platform</li>
                                 </ul>
                             </div>
                             <!-- /.col-sm-4 -->
@@ -121,7 +124,7 @@
                                 </div>
 
                                 <div class="col-sm-12 text-center">
-                                    <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
+                                    <button type="submit" class="btn btn-dark"><i class="fa fa-envelope-o"></i> Send message</button>
 
                                 </div>
                             </div>
@@ -143,8 +146,8 @@
 	<%@ include file="footer.jsp" %>
 	
 	<%@ include file="footer_includes.jsp" %>
-    
-    <script src="<%=request.getContextPath()%>/static/js/home.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=&sensor=false"></script>
+    <script src="<%=request.getContextPath()%>/static/js/contactus.js"></script>
     
   </body>
 </html>

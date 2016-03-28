@@ -170,7 +170,7 @@
                             </li>
                         </ul>
 		            </li>            
-	              	<li><a href="<%=request.getContextPath()%>/static/html/Contact.jsp">Contact Us</a></li>
+	              	<li><a href="<%=request.getContextPath()%>/static/html/contactus.jsp">Contact Us</a></li>
 	              
 	            </ul>
 	            <ul class="nav navbar-nav navbar-right hidden-xs">

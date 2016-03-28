@@ -11,7 +11,6 @@
 
     <%@ include file="header_includes.jsp" %>
     
-    <link href="<%=request.getContextPath()%>/static/css/common.css" rel="stylesheet" />
     <link href="<%=request.getContextPath()%>/static/css/sidebar.css" rel="stylesheet" />
     <link href="<%=request.getContextPath()%>/static/css/category.css" rel="stylesheet" />
     
@@ -219,12 +218,12 @@
                 </div>
 
                 <div class="col-md-9">
-                    <div class="box">
+                    <div class="page-box">
                         <h1>Loose Gemstones</h1>
                         <p>Buy wholesale loose gemstones including sapphires, emeralds, rubies and semi-precious gemstones or choose gemstone jewelry from our exquisite handcrafted collections.</p>
                     </div>
 
-                    <div class="box info-bar">
+                    <div class="page-box info-bar">
                         <div class="row">
                             <div class="col-sm-12 col-md-4 products-showing">
                                 Showing <strong>12</strong> of <strong>25</strong> products

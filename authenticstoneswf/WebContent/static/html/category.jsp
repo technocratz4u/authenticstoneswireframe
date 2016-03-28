@@ -11,8 +11,9 @@
 
     <%@ include file="header_includes.jsp" %>
     
-    <link href="<%=request.getContextPath()%>/static/css/home.css" rel="stylesheet" />
-     <link href="<%=request.getContextPath()%>/static/css/category.css" rel="stylesheet" />
+    <link href="<%=request.getContextPath()%>/static/css/common.css" rel="stylesheet" />
+    <link href="<%=request.getContextPath()%>/static/css/sidebar.css" rel="stylesheet" />
+    <link href="<%=request.getContextPath()%>/static/css/category.css" rel="stylesheet" />
     
   </head>
 
@@ -22,7 +23,7 @@
 
 	<!-- Home page content start -->
 	
-        <div id="content">
+        <div id="page-content">
             <div class="container">
 
                 <div class="col-md-12">
@@ -45,7 +46,7 @@
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked category-menu">
                                 <li>
-                                    <a href="#">Loose stones <span class="badge pull-right">42</span></a>
+                                    <a href="#">Loose stones </a>
                                     <ul>
                                         <li class="active"><a href="#">Ruby</a>
                                         </li>
@@ -58,7 +59,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Beads  <span class="badge pull-right">123</span></a>
+                                    <a href="#">Beads</a>
                                     <ul>
                                         <li><a href="#">Peridot</a>
                                         </li>
@@ -71,7 +72,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Carvings  <span class="badge pull-right">11</span></a>
+                                    <a href="#">Carvings</a>
                                     <ul>
                                         <li><a href="#">Ruby</a>
                                         </li>
@@ -215,13 +216,6 @@
                         </div>
                     </div>
 
-                    <!-- *** MENUS AND FILTERS END *** -->
-
-                    <div class="banner">
-                        <a href="#">
-                            <img src="<%=request.getContextPath()%>/static/img/diamond-3d.jpg" alt="sales 2014" class="img-responsive">
-                        </a>
-                    </div>
                 </div>
 
                 <div class="col-md-9">

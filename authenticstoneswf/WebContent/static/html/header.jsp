@@ -54,7 +54,7 @@
                                         <div class="col-sm-4">
                                             <h5>Stones</h5>
                                             <ul>
-                                                <li><a href="static/html/category.jsp">Ruby</a>
+                                                <li><a href="<%=request.getContextPath()%>/static/html/category.jsp">Ruby</a>
                                                 </li>
                                                 <li><a href="javascript:void(0);">Sapphire</a>
                                                 </li>
@@ -170,7 +170,7 @@
                             </li>
                         </ul>
 		            </li>            
-	              	<li><a href="#contact">Contact Us</a></li>
+	              	<li><a href="<%=request.getContextPath()%>/static/html/Contact.jsp">Contact Us</a></li>
 	              
 	            </ul>
 	            <ul class="nav navbar-nav navbar-right hidden-xs">

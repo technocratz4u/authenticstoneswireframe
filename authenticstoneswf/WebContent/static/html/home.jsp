@@ -254,7 +254,7 @@
 			</div>
 			<div class="col-md-4">
 				<h4>Shipped By</h4>
-				<img class="img-responsive" id="buy-from-us-img" src="<%=request.getContextPath()%>/static/img/FedEx-Express-logo-300x224.png" alt="FedEx">
+				<img class="img-responsive" id="buy-from-us-img" src="<%=request.getContextPath()%>/static/img/FedEx-Express-logo-300x224_1.png" alt="FedEx">
 			</div>
 			<div class="col-md-4">
 			</div>

@@ -222,6 +222,10 @@ header h1.brand{
 	margin: 8px 20px 8px 15px;
 }
 
+#header.bottom-padded {
+    padding-bottom:50px;
+}
+
 #home-navbar.affix {
     position: fixed;
     top: 0;

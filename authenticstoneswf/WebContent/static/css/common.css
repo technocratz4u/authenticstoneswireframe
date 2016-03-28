@@ -221,3 +221,10 @@ header h1.brand{
 #home-navbar-cart-button{
 	margin: 8px 20px 8px 15px;
 }
+
+#home-navbar.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}

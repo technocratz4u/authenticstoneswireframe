@@ -11,3 +11,4 @@
 <!-- Owl Carousel Script -->
 <script src="<%=request.getContextPath()%>/static/plugins/owl-carousel/owl.carousel.js"></script>
 
+<script src="<%=request.getContextPath()%>/static/js/common.js"></script>

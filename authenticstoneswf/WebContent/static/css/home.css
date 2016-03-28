@@ -223,6 +223,22 @@
 	color: #8B8B8B;
 }
 
+#our-partners-body h4{
+	color: #000000;
+	text-align: center;
+}
+
+#our-partners-body img{
+	margin: 0px auto;	
+}
+
+#track-order{
+	text-align: center;	
+}
+
+#track-order a{
+	margin-top: 15px;
+}
 @media only screen and (max-width: 979px) {
 	
 }

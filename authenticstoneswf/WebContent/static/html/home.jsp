@@ -248,7 +248,7 @@
 			<div class="col-md-4">
 				<h4>Pay Securely With</h4>
 				<!-- PayPal Logo -->
-				<img src="https://www.paypalobjects.com/webstatic/en_IN/mktg/logos/AM_SbyPP_mc_vs_dc_ae.jpg" class="img-responsive"
+				<img src="<%=request.getContextPath()%>/static/img/partners_paypal.jpg" class="img-responsive"
 								border="0" alt="PayPal">
 				<!-- PayPal Logo -->
 			</div>
@@ -256,7 +256,9 @@
 				<h4>Shipped By</h4>
 				<img class="img-responsive" id="buy-from-us-img" src="<%=request.getContextPath()%>/static/img/FedEx-Express-logo-300x224_1.png" alt="FedEx">
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" id="track-order">
+				<h4>Track Your Order</h4>
+				<a href="http://www.fedex.com/us/track/" target="_blank" class="btn btn-dark btn-lg">Track Now<i class="fa fa-search fa-fw"></i></a> 
 			</div>
 			
 		</div>

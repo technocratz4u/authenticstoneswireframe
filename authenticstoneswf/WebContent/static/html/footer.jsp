@@ -41,13 +41,14 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <h4>Where to find us</h4>
-                    <p><strong>Obaju Ltd.</strong>
-                        <br>13/25 New Avenue
-                        <br>New Heaven
-                        <br>45Y 73J
-                        <br>England
+                    <p><strong>Authentic Stones Co., Ltd.</strong>
+                        <br>388 Sita Building, 4th Floor
+                        <br>Suite 401 
+                        <br>Mahaseak Rd. 
+                        <br>Suriyawongse, Bangrak 
+                        <br>Bangkok 10500 
                         <br>
-                        <strong>Great Britain</strong>
+                        <strong>Thailand</strong>
                     </p>
                     
                     <hr class="hidden-md hidden-lg">
@@ -55,9 +56,9 @@
                 <div class="col-md-3 col-sm-6">
                     <h4>Contact Us</h4>
                     <p class="footer-contact">
-                    	<a href="#"><i class="fa fa-envelope fa-fw"></i> contact@demolink.org</a>
+                    	<a href="#"><i class="fa fa-envelope fa-fw"></i> authenticstones@gmail.com</a>
                     	<br>
-                    	<a href="#"><i class="fa fa-phone fa-fw"></i> +1 800 559 6580</a>
+                    	<a href="#"><i class="fa fa-phone fa-fw"></i> +662-635-9263</a>
                     </p>
 
                    <hr>

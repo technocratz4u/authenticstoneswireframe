@@ -328,6 +328,10 @@ header h1.brand{
     color: #000000;
 }
 
+#copyright-container, #our-link-container{
+	margin-bottom: 0px;
+}
+
 #copyright-container{
 	text-align: left;
 }
@@ -339,31 +343,6 @@ header h1.brand{
 a#our-link{
 	color: #FFFFFF;
 	font-weight: bold;
-}
-
-@media only screen and (max-width: 979px) {
-	
-}
-
-@media only screen and (max-width: 767px) {
-	#copyright-container, #our-link-container{
-		text-align: center;
-		margin-bottom: 0px;
-	}
-	
-}
-
-
-@media only screen and (max-width: 616px) {
-	header h1.brand{
-		font-size: 30px;
-	}
-}
-
-@media only screen and (max-width: 436px) {
-	header h1.brand{
-		font-size: 23px;
-	}
 }
 
 /* Pagination CSS starts from here */
@@ -431,4 +410,29 @@ a#our-link{
   padding: 10px;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+@media only screen and (max-width: 979px) {
+	
+}
+
+@media only screen and (max-width: 767px) {
+	#copyright-container, #our-link-container{
+		text-align: center;
+	}
+	
+}
+
+
+@media only screen and (max-width: 616px) {
+	header h1.brand{
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 436px) {
+	header h1.brand{
+		font-size: 23px;
+	}
 }

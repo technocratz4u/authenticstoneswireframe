@@ -75,7 +75,7 @@
 	padding: 15px;
 }
 
-#buy-from-us-title, #hot-this-week-title{
+#buy-from-us-title, #hot-this-week-title, #our-partners-title{
 	padding-top: 30px;
 	padding-bottom: 20px;
 	font-size: 40px;
@@ -87,7 +87,7 @@
 }
 
 
-#buy-from-us-body, #hot-this-week-body{
+#buy-from-us-body, #hot-this-week-body, #our-partners-body{
 	padding-bottom: 20px;
 }
 

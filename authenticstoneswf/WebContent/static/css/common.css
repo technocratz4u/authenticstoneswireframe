@@ -207,17 +207,24 @@ fieldset[disabled] .btn-gray.active {
 	text-align: left;
 }
 
-#offer_of_day_btn{
+#offer_of_day .offer_of_day_btn, #sign_in_up .top-search-button{
 	text-transform: uppercase;
 	color: #222222;
 }
 
-#offer_of_day_btn:hover{
+#offer_of_day .offer_of_day_btn:hover, #sign_in_up .top-search-button:hover{
 	color: #000000;
+}
+
+#offer_of_day .offer_of_day_btn, #sign_in_up .top-search-button{
+	margin-right: 10px;
 }
 
 #sign_in_up{
 	text-align: right;
+}
+#sign_in_up .menu{
+	display: inline-block;
 }
 #search-control-container .select2-container--bootstrap .select2-selection--single{
 	height:auto;
@@ -533,6 +540,19 @@ a#our-link{
 
 @media only screen and (max-width: 767px) {
 	#copyright-container, #our-link-container{
+		text-align: center;
+	}
+	
+	#offer_of_day_desc{
+		font-size: 12px;
+	}
+	
+	#offer_of_day{
+		text-align: center;
+	}
+	
+	
+	#sign_in_up{
 		text-align: center;
 	}
 	

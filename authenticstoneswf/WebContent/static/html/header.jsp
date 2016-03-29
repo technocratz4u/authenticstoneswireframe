@@ -3,8 +3,9 @@
       <div class="container">
         <div class="row">
             <div class="col-sm-6" id="offer_of_day">
-            	<a href="#" class="btn btn-default btn-sm" role="button" id="offer_of_day_btn">Offer of the Day</a>
-            	<a href="#">Get flat 30% off on orders over $50!</a>
+            	<a href="#" class="btn btn-default btn-sm hidden-xs offer_of_day_btn" role="button" >Offer of the Day</a>
+            	<a href="#" class="btn btn-default btn-xs visible-xs-inline-block offer_of_day_btn" role="button">Offer of the Day</a>
+            	<a href="#" id="offer_of_day_desc">Get flat 30% off on orders over $50!</a>
             </div>
             <!-- <div class="col-xs-6" id="search-control-container">
             	<select class="form-control" id="search-control">
@@ -17,6 +18,8 @@
             </div> -->
             <div class="clearfix visible-xs-block"></div>
             <div class="col-sm-6" id="sign_in_up">
+            	<a href="#" class="btn btn-default btn-sm hidden-xs top-search-button" role="button" >Search</a>
+            	<a href="#" class="btn btn-default btn-xs visible-xs-inline-block top-search-button" role="button">Search</a>
             	<ul class="menu">
                     <li>
                     	<a href="#" data-toggle="modal" data-target="#login-modal">Login</a>

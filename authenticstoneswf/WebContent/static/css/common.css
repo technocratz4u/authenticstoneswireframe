@@ -220,7 +220,8 @@ fieldset[disabled] .btn-gray.active {
 	text-align: left;
 }
 
-.select2-results__group, .select2-selection__placeholder{
+.select2-results > ul > li >.select2-results__group, 
+.select2-container--bootstrap .selection .select2-selection__placeholder{
 	color: #666666;
 }
 

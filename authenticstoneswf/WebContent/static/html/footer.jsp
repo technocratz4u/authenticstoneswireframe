@@ -4,7 +4,7 @@
 			<div class="col-md-3 col-sm-6">
                     <h4>Pages</h4>
                     <ul>
-                        <li><a href="text.html">About us</a>
+                        <li><a href="<%=request.getContextPath()%>/static/html/about.jsp">About us</a>
                         </li>
                         <li><a href="contact.html">Contact us</a>
                         </li>

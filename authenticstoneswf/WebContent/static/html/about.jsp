@@ -25,8 +25,7 @@
         <div id="content">
             <div class="container">
             	<div class="row">
-
-	                <div class="col-md-12">
+	                <div class="col-xs-12">
 	                    <ul class="breadcrumb">
 	                        <li><a href="#">Home</a>
 	                        </li>
@@ -36,17 +35,17 @@
 	              </div>
 	              
 	              <div class="row">
-		            <div class="col-md-12">
+		            <div class="col-xs-12">
 		            	<h1>Company Overview</h1>
 		            	<hr>
 		            </div>
 		          </div>
 		          <div class="row">
-		            	<div class="col-md-6">
+		            	<div class="col-xs-12 col-md-6">
 		            		<img class="img-responsive" src="<%=request.getContextPath()%>/static/img/map-of-thailand.gif" alt="Map">
 		            	</div>
 		            	
-		            	<div class="col-md-6">
+		            	<div class="col-xs-12 col-md-6">
 		            		<h2>Our Story</h2>
 			            	<p>We are one of Thailand's leading Gem Exporters of Precious & Semi Precious Colored Stones 
 			            		(specializing in natural & genuine Ruby, Sapphire and Emeralds) and operate our business from Bangkok, Thailand 
@@ -62,7 +61,7 @@
 		            	</div>
 		            </div>
 		            <div class="row">
-		            	<div class="col-md-12">
+		            	<div class="col-xs-12">
 		            		<hr>
 		            		<h2>Our Mission</h2>
 			            	<p>To color your loved once life with our colorful gemstones, beads & carvings.</p>
@@ -70,7 +69,7 @@
 		            </div>
 		            	
 		            <div class="row">
-		            	<div class="col-md-12">
+		            	<div class="col-xs-12">
 		            		<h2>Our Passion</h2>
 			            	<p>To providing exceptional products and exemplary customer service, 
 			            		at very nominal costs, are the leading factors for our thriving business in this competitive market.</p>
@@ -78,7 +77,7 @@
 		            </div>
 		            	
 		            <div class="row">
-		            	<div class="col-md-12">
+		            	<div class="col-xs-12">
 		            		<h2>We strive to provide</h2>
 			            	<ul>
 			            		<li>Great Price and Value</li>
@@ -89,7 +88,7 @@
 		            </div>
 		            	
 		            <div class="row">
-		            	<div class="col-md-12">
+		            	<div class="col-xs-12">
 		            		<h2>Our Aim</h2>
 			            	<p>Our aim is 100% customer satisfaction & display 100% of the company's offline inventory online through authenticstones.com to its 
 			            		existing customers & new customers worldwide (end users, retailers, jewelers & designers). </p>

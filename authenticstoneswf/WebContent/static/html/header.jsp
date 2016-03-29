@@ -7,7 +7,7 @@
             <div class="col-xs-6 col-sm-3"><i class="fa fa-phone fa-fw"></i>
             +1 800 559 6580</div>
             <div class="clearfix visible-xs-block"></div>
-            <div class="col-xs-6 col-sm-3 top-search">
+            <div class="col-xs-6 col-sm-3 top-search" id="search-control-container">
               <select class="form-control" id="search-control">
 					<option></option>
 					<optgroup label="Alaskan/Hawaiian Time Zone">

@@ -92,7 +92,7 @@
                     <div class="panel panel-default sidebar-menu">
 
                         <div class="panel-heading">
-                            <h3 class="panel-title">Shape <a class="btn btn-xs btn-link pull-right" href="#"><i class="fa fa-times-circle"></i> Clear</a></h3>
+                            <h3 class="panel-title">Shape <button type="button" class="btn btn-default btn-xs pull-right"><i class="fa fa-times-circle fa-fw"></i> Clear</button></h3>
                         </div>
 
                         <div class="panel-body">
@@ -131,7 +131,7 @@
                     <div class="panel panel-default sidebar-menu">
 
                         <div class="panel-heading">
-                            <h3 class="panel-title">Price Range <a class="btn btn-xs btn-link pull-right" href="#"><i class="fa fa-times-circle"></i> Clear</a></h3>
+                            <h3 class="panel-title">Price Range <button type="button" class="btn btn-default btn-xs pull-right"><i class="fa fa-times-circle fa-fw"></i> Clear</button></h3>
                         </div>
 
                         <div class="panel-body">
@@ -174,7 +174,7 @@
                     <div class="panel panel-default sidebar-menu">
 
                         <div class="panel-heading">
-                            <h3 class="panel-title">Country of Origin <a class="btn btn-xs btn-link pull-right" href="#"><i class="fa fa-times-circle"></i> Clear</a></h3>
+                            <h3 class="panel-title">Country of Origin <button type="button" class="btn btn-default btn-xs pull-right"><i class="fa fa-times-circle fa-fw"></i> Clear</button></h3>
                         </div>
 
                         <div class="panel-body">
@@ -265,7 +265,7 @@
                                     <p class="price">$143.00</p>
                                     <p class="buttons">
                                         <a href="#" class="btn btn-default">View detail</a>
-                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                     </p>
                                 </div>
                                 <!-- /.text -->
@@ -283,7 +283,7 @@
                                     <p class="price">$113.00</p>
                                     <p class="buttons">
                                         <a href="#" class="btn btn-default">View detail</a>
-                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                     </p>
                                 </div>
 
@@ -320,7 +320,7 @@
                                     <p class="price">$143.00</p>
                                     <p class="buttons">
                                         <a href="#" class="btn btn-default">View detail</a>
-                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                     </p>
                                 </div>
                                 
@@ -338,7 +338,7 @@
                                     <p class="price">$143.00</p>
                                     <p class="buttons">
                                         <a href="#" class="btn btn-default">View detail</a>
-                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                     </p>
                                 </div>
                                 
@@ -356,7 +356,7 @@
                                     <p class="price">$113.00</p>
                                     <p class="buttons">
                                         <a href="#" class="btn btn-default">View detail</a>
-                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                     </p>
                                 </div>
 
@@ -392,7 +392,7 @@
                                     <p class="price">$143.00</p>
                                     <p class="buttons">
                                         <a href="#" class="btn btn-default">View detail</a>
-                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-dark"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                     </p>
                                 </div>
                                 

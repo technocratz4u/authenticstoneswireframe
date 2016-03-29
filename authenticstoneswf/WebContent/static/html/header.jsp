@@ -45,7 +45,7 @@
 	            <ul class="nav navbar-nav">
 	              <!-- Grid 12 Menu -->
 	              	<li class="first active"><a href="#">Home</a></li>
-		            <li><a href="#about">About Us</a></li>
+		            <li><a href="<%=request.getContextPath()%>/static/html/about.jsp">About Us</a></li>
 		            <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Product<b class="caret" style="margin-left:10px;"></b></a>
 		                <ul class="dropdown-menu">
                             <li>

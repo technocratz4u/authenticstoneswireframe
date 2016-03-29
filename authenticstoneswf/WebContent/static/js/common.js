@@ -17,5 +17,5 @@ $(document).ready(function() {
 	  $("#header").removeClass("bottom-padded");
 	});
 	
-	
+	$( "#search-control" ).select2( { placeholder: "Search...", theme: "bootstrap" } );
 });

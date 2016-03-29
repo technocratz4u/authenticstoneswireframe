@@ -11,4 +11,8 @@
 <!-- Owl Carousel Script -->
 <script src="<%=request.getContextPath()%>/static/plugins/owl-carousel/owl.carousel.js"></script>
 
+<!-- select2 script -->
+<script src="<%=request.getContextPath()%>/static/plugins/select2-master/dist/js/select2.min.js"></script>
+
+
 <script src="<%=request.getContextPath()%>/static/js/common.js"></script>

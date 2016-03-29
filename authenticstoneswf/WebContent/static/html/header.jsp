@@ -7,12 +7,14 @@
             <div class="col-xs-6 col-sm-3"><i class="fa fa-phone fa-fw"></i>
             +1 800 559 6580</div>
             <div class="clearfix visible-xs-block"></div>
-            <div class="col-xs-6 col-sm-3 top-socials">
-              <a class="fa fa-facebook fa-fw" href="#"></a>
-              <a class="fa fa-google-plus fa-fw" href="#"></a>
-              <!-- <a class="fa fa-rss fa-fw" href="#"></a>
-              <a class="fa fa-pinterest fa-fw" href="#"></a>
-              <a class="fa fa-linkedin fa-fw" href="#"></a> -->
+            <div class="col-xs-6 col-sm-3 top-search">
+              <select class="form-control" id="search-control">
+					<option></option>
+					<optgroup label="Alaskan/Hawaiian Time Zone">
+						<option value="AK">Alaska</option>
+						<option value="HI">Hawaii</option>
+					</optgroup>
+			  </select>
             </div>
             <div class="col-xs-6 col-sm-3">
             	<ul class="menu">

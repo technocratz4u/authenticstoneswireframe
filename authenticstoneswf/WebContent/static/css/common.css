@@ -200,10 +200,25 @@ fieldset[disabled] .btn-gray.active {
 	color: #FFFFFF;
 }
 
-.top-socials{
+.top-search{
 	font-size: 20px;
 }
 
+.select2-container--bootstrap .select2-selection--single{
+	height:auto;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.select2-container--bootstrap .select2-results__option--highlighted[aria-selected]{
+	
+	color: #000;
+	background-color: #F1F1F1;
+}
+
+.select2-selection__rendered{
+	text-align: left;
+}
 .header-top ul.menu {
     list-style: outside none none;
     padding: 0px;

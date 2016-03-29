@@ -28,4 +28,9 @@
 <link href="<%=request.getContextPath()%>/static/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link href="<%=request.getContextPath()%>/static/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
 
+<!-- select2 style -->
+<link href="<%=request.getContextPath()%>/static/plugins/select2-master/dist/css/select2.min.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/static/plugins/select2-master/dist/css/select2-bootstrap.min.css" rel="stylesheet">
+
+
 <link href="<%=request.getContextPath()%>/static/css/common.css" rel="stylesheet" />

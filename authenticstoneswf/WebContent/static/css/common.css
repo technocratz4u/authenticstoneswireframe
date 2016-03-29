@@ -203,11 +203,30 @@ fieldset[disabled] .btn-gray.active {
 .top-search{
 	font-size: 20px;
 }
+#offer_of_day{
+	text-align: left;
+}
 
+#offer_of_day_btn{
+	text-transform: uppercase;
+	color: #222222;
+}
+
+#offer_of_day_btn:hover{
+	color: #000000;
+}
+
+#sign_in_up{
+	text-align: right;
+}
 #search-control-container .select2-container--bootstrap .select2-selection--single{
 	height:auto;
 	padding-top: 3px;
 	padding-bottom: 3px;
+}
+
+#search-control-container .select2.select2-container{
+	max-width: 100%;
 }
 
 .select2-container--bootstrap .select2-results__option--highlighted[aria-selected]{

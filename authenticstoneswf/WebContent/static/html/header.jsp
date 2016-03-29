@@ -2,21 +2,21 @@
 	<div class="header-top">
       <div class="container">
         <div class="row">
-            <div class="col-xs-6 col-sm-3"><a href="#"><i class="fa fa-envelope fa-fw"></i>
-            contact@demolink.org</a></div>
-            <div class="col-xs-6 col-sm-3"><i class="fa fa-phone fa-fw"></i>
-            +1 800 559 6580</div>
-            <div class="clearfix visible-xs-block"></div>
-            <div class="col-xs-6 col-sm-3 top-search" id="search-control-container">
-              <select class="form-control" id="search-control">
+            <div class="col-sm-6" id="offer_of_day">
+            	<a href="#" class="btn btn-default btn-sm" role="button" id="offer_of_day_btn">Offer of the Day</a>
+            	<a href="#">Get flat 30% off on orders over $50!</a>
+            </div>
+            <!-- <div class="col-xs-6" id="search-control-container">
+            	<select class="form-control" id="search-control">
 					<option></option>
 					<optgroup label="Alaskan/Hawaiian Time Zone">
 						<option value="AK">Alaska</option>
 						<option value="HI">Hawaii</option>
 					</optgroup>
-			  </select>
-            </div>
-            <div class="col-xs-6 col-sm-3">
+			    </select>
+            </div> -->
+            <div class="clearfix visible-xs-block"></div>
+            <div class="col-sm-6" id="sign_in_up">
             	<ul class="menu">
                     <li>
                     	<a href="#" data-toggle="modal" data-target="#login-modal">Login</a>

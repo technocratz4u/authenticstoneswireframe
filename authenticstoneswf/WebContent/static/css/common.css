@@ -219,6 +219,11 @@ fieldset[disabled] .btn-gray.active {
 .select2-selection__rendered{
 	text-align: left;
 }
+
+.select2-results__group, .select2-selection__placeholder{
+	color: #666666;
+}
+
 .header-top ul.menu {
     list-style: outside none none;
     padding: 0px;

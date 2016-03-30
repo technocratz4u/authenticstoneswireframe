@@ -25,7 +25,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<ul class="breadcrumb">
-						<li><a href="#">Home</a></li>
+						<li><a href="<%=request.getContextPath()%>">Home</a></li>
 						<li>About Us</li>
 					</ul>
 				</div>
@@ -50,7 +50,7 @@
 						Semi Precious Colored Stones (specializing in natural & genuine
 						Ruby, Sapphire and Emeralds) and operate our business from
 						Bangkok, Thailand and Jaipur (Rajasthan) India.</p>
-					<p>Authentic Stones Co., Ltd. has been operating globally since
+					<p>Authentic Stones Co. Ltd. has been operating globally since
 						1990 and specializing in all major shapes & sizes (Cuts & Cabs:
 						Rounds, Ovals, Pears, Octagons, Marquise, Taper/Baguette, Heart
 						and etc.).</p>

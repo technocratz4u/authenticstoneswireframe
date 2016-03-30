@@ -24,9 +24,9 @@
                 <div class="col-md-3 col-sm-6">
                     <h4>Customer Service</h4>
                     <ul>
-                    	<li><a href="text.html">Terms and conditions</a>
+                    	<li><a href="<%=request.getContextPath()%>/static/html/termsNconditions.jsp">Terms and conditions</a>
                         </li>
-                        <li><a href="category.html">Return Policy</a>
+                        <li><a href="<%=request.getContextPath()%>/static/html/returnPolicy.jsp">Return Policy</a>
                         </li>
                         <li><a href="category.html">Shipping Policy</a>
                         </li>

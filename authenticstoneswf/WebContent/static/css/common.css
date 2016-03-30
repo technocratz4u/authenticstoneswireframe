@@ -570,3 +570,7 @@ a#our-link{
 		font-size: 23px;
 	}
 }
+
+.sameHeight {
+	 max-height: 100px;
+}

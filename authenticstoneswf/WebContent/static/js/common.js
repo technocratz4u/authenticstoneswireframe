@@ -17,5 +17,13 @@ $(document).ready(function() {
 	  $("#header").removeClass("bottom-padded");
 	});
 	
-	$( "#search-control" ).select2( { placeholder: "Search...", theme: "bootstrap" } );
+	//$( "#search-control" ).select2( { placeholder: "Search...", theme: "bootstrap" } );
+	
+	$("#top-search-button").popover({
+	    html: true, 
+		content: function() {
+	          return $('#popover-content').html();
+	        }
+	});
+	
 });

@@ -2,11 +2,11 @@
 	<div class="header-top">
       <div class="container">
         <div class="row">
-            <div class="col-sm-6" id="offer_of_day">
+            <!-- <div class="col-sm-6" id="offer_of_day">
             	<a href="#" class="btn btn-default btn-sm hidden-xs offer_of_day_btn" role="button" >Offer of the Day</a>
             	<a href="#" class="btn btn-default btn-xs visible-xs-inline-block offer_of_day_btn" role="button">Offer of the Day</a>
             	<a href="#" id="offer_of_day_desc">Get flat 30% off on orders over $50!</a>
-            </div>
+            </div> -->
             <!-- <div class="col-xs-6" id="search-control-container">
             	<select class="form-control" id="search-control">
 					<option></option>
@@ -16,10 +16,30 @@
 					</optgroup>
 			    </select>
             </div> -->
+            <div class="col-sm-6" id="header-top-contact">
+            	<a href="#" id="header-top-contact-phone"><i class="fa fa-phone fa-fw"></i> +662-635-9263</a>
+            	<a href="#" id="header-top-contact-mail"><i class="fa fa-envelope fa-fw"></i> authenticstones@gmail.com</a>
+            </div>
             <div class="clearfix visible-xs-block"></div>
             <div class="col-sm-6" id="sign_in_up">
-            	<a href="#" class="btn btn-default btn-sm hidden-xs top-search-button" role="button" >Search</a>
-            	<a href="#" class="btn btn-default btn-xs visible-xs-inline-block top-search-button" role="button">Search</a>
+            	<!-- <a href="#" class="btn btn-default btn-sm hidden-xs top-search-button" role="button" >Search</a>
+            	<a href="#" class="btn btn-default btn-xs visible-xs-inline-block top-search-button" role="button">Search</a> -->
+            	<a data-placement="bottom" data-toggle="popover" data-container="body" role="button" data-html="true" 
+            		class="btn btn-default btn-xs top-search-button" href="#" id="top-search-button"><span class="glyphicon glyphicon-search"></span></a>
+            	<div id="popover-content" class="hide">
+			      <form id="header-search-form">
+			      	<div class="row">
+					  <div class="col-xs-12">
+					    <div class="input-group">
+					      <input type="text" class="form-control" placeholder="Search for...">
+					      <span class="input-group-btn">
+					        <button class="btn btn-dark" type="button">Go!</button>
+					      </span>
+					    </div><!-- /input-group -->
+					  </div><!-- /.col-lg-6 -->
+					 </div>
+				  </form>
+			    </div>
             	<ul class="menu">
                     <li>
                     	<a href="#" data-toggle="modal" data-target="#login-modal">Login</a>

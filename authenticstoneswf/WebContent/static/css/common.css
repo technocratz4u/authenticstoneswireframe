@@ -207,6 +207,11 @@ fieldset[disabled] .btn-gray.active {
 	text-align: left;
 }
 
+.top-search-button{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 #offer_of_day .offer_of_day_btn, #sign_in_up .top-search-button{
 	text-transform: uppercase;
 	color: #222222;
@@ -264,6 +269,14 @@ fieldset[disabled] .btn-gray.active {
 .header-top ul.menu > li.piped::before {
     content: "| ";
     padding: 0px 5px;
+}
+
+#header-top-contact{
+	text-align: left;
+}
+
+#header-top-contact-mail{
+	padding-left: 10px;
 }
 
 header h1.brand{
@@ -539,6 +552,10 @@ a#our-link{
 }
 
 @media only screen and (max-width: 767px) {
+	#header-top-contact{
+		text-align: center;
+	}
+
 	#copyright-container, #our-link-container{
 		text-align: center;
 	}

@@ -1,0 +1,30 @@
+.cart-image-width{
+	width:70px;
+}
+
+#page-content #order-summary table {
+  margin-top: 20px;
+}
+#page-content #order-summary table td {
+  color: #999999;
+}
+#page-content #order-summary table tr.total td,
+#page-content #order-summary table tr.total th {
+  font-size: 18px;
+  color: #555555;
+  font-weight: 700;
+} 
+
+#page-content #basket .table tbody tr td {
+  vertical-align: middle;
+  
+}
+
+#page-content #basket .table tbody tr td input {
+  width: 50px;
+  text-align: right;
+}
+
+#page-content #basket .table tfoot {
+  font-size: 18px;
+}

@@ -42,7 +42,7 @@
 	            	<span class="icon-bar"></span>
 	            </button>
 	            
-	            <button type="button" class="navbar-toggle btn btn-dark" id="home-navbar-cart-button-collapsed" data-toggle="collapse" data-target="#links"><i class="fa fa-shopping-cart"></i><span class="hidden-sm"> cart</span> <span class="badge">4</span></button>
+	            <button type="button" onclick="location.href = '<%=request.getContextPath()%>/static/html/basket.jsp';" class="navbar-toggle btn btn-dark" id="home-navbar-cart-button-collapsed" data-toggle="collapse" data-target="#links"><i class="fa fa-shopping-cart"></i><span class="hidden-sm"> cart</span> <span class="badge">4</span></button>
 	            <!-- <a class="visible-xs-block navbar-brand" href="#">Authentic Stones Co., Ltd.</a> -->
 	          </div>
 	          
@@ -179,7 +179,7 @@
 	              
 	            </ul>
 	            <ul class="nav navbar-nav navbar-right hidden-xs">
-			        <li><button type="button" class="btn btn-dark" id="home-navbar-cart-button"><i class="fa fa-shopping-cart"></i><span class="hidden-sm"> cart</span> <span class="badge">4</span></button></li>
+			        <li><button type="button" class="btn btn-dark" onclick="location.href = '<%=request.getContextPath()%>/static/html/basket.jsp';" id="home-navbar-cart-button"><i class="fa fa-shopping-cart"></i><span class="hidden-sm"> cart</span> <span class="badge">4</span></button></li>
 			     </ul>
 	          </div>
 	        </div>

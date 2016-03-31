@@ -29,8 +29,6 @@
 						<li><a href="<%=request.getContextPath()%>/static/html/returnPolicy.jsp">Return Policy</a></li>
                         <li><a href="<%=request.getContextPath()%>/static/html/privacy_policy.jsp">Privacy Policy</a>
                         </li>
-                        <li><a href="category.html">Return Policy</a>
-                        </li>
                         <li><a href="category.html">Shipping Policy</a>
                         </li>
                         <li><a href="category.html">Frequently Asked Questions</a>

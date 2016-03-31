@@ -77,10 +77,10 @@
 	<div class="footer-bottom">
       <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-6 col-md-6">
             	<p id="copyright-container">&copy;2016 Authentic Stones Co., Ltd. All Rights Reserved </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6 col-md-6">
             	<p id="our-link-container">Template and Site designed and built by <a id="our-link" href="#">Technocratz4u</a></p>
             </div>
         </div>

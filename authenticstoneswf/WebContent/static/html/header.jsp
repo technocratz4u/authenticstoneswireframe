@@ -63,12 +63,12 @@
 	      <div class="modal-body">
 			<div class="well">
 				<ul class="nav nav-tabs">
-					<li><a id="loginTab" href="#login" data-toggle="tab">Login</a></li>
-					<li><a id="registerTab" href="#create" data-toggle="tab">Create Account</a></li>
+					<li><a id="loginTab" href="#loginTabContent" data-toggle="tab">Login</a></li>
+					<li><a id="registerTab" href="#registerTabContent" data-toggle="tab">Create Account</a></li>
 				</ul>
 				<div id="myTabContent" class="tab-content">
-					<div class="tab-pane active in" id="login">
-						<form class="form-horizontal" action='' method="POST">
+					<div role="tabpanel" class="tab-pane fade" id="loginTabContent">
+						<form class="form-horizontal" action="" method="POST">
 							<fieldset>
 								<div id="legend">
 									<legend class="">Login</legend>
@@ -99,7 +99,7 @@
 							</fieldset>
 						</form>                
 					</div>
-					<div class="tab-pane fade" id="create">
+					<div role="tabpanel" class="tab-pane fade" id="registerTabContent">
 						<form id="tab">
 							<label>Username</label>
 							<input type="text" value="" class="input-xlarge">

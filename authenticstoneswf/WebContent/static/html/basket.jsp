@@ -21,6 +21,15 @@
 
 	<div id="page-content">
 		<div class="container">
+		   <div class="row">
+		          <div class="col-md-12">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a>
+                        </li>
+                        <li>Shopping cart</li>
+                    </ul>
+                </div>
+             </div>
 			<div class="row">
 				<div class="col-md-9" id="basket">
 
@@ -50,7 +59,7 @@
 													alt="Diamond">
 
 											</a></td>
-											<td><a href="#">White Blouse Armani</a></td>
+											<td><a href="#">Diamond Cut</a></td>
 											<td><input type="number" value="2" class="form-control">
 											</td>
 											<td>$123.00</td>
@@ -64,7 +73,7 @@
 													src="<%=request.getContextPath()%>/static/img/ruby-3d.jpg"
 													alt="Ruby">
 											</a></td>
-											<td><a href="#">Black Blouse Armani</a></td>
+											<td><a href="#">Ruby Cut</a></td>
 											<td><input type="number" value="1" class="form-control">
 											</td>
 											<td>$200.00</td>
@@ -121,7 +130,7 @@
 									<button class="btn btn-default">
 										<i class="fa fa-refresh"></i> Update basket
 									</button>
-									<button type="submit" class="btn btn-dark">
+									<button type="submit" class="btn btn-dark" onclick="location.href = '<%=request.getContextPath()%>/static/html/checkout.jsp';">
 										Proceed to checkout <i class="fa fa-chevron-right"></i>
 									</button>
 								</div>
@@ -161,6 +170,10 @@
 										<tr>
 											<td>Tax</td>
 											<th>$0.00</th>
+										</tr>
+										<tr>
+											<td>Discount</td>
+											<th>$5.00</th>
 										</tr>
 										<tr class="total">
 											<td>Total</td>

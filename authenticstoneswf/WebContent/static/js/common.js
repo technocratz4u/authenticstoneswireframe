@@ -28,8 +28,15 @@ $(document).ready(function() {
 	
 	/**
 	 * The tabs and modal display are handled via script to get dynamic UI for register and login 
-	 * None of the tabs are marked active to fire the show.bs.tab method before the tab is made visible
+	 * signinupModal is initialized on load but not shown since it is shown on click of loginLink or registerLink through script
+	 * None of the tabs are marked active, so based on whether loginLink or registerLink is clicked, the corresponding tab is made visible
 	 */
+	
+	$("#signinupModal").modal({
+		backdrop : "static",
+		keyboard : false,
+		show: false
+	});
 	
 	/** The show.bs.tab methods for tabs are overridden to change the modal title **/
 	$("#loginTab").on('show.bs.tab', function (e) {
@@ -44,14 +51,10 @@ $(document).ready(function() {
 	 * on click of loginLink to show the login tab 
 	**/
 	$("#loginLink").click(function(){
-		$('#signinupModal').on('show.bs.modal', function (e) {
-			$('#loginTab').tab('show');
-		});
-		
-		$("#signinupModal").modal({
-			backdrop : "static",
-			keyboard : false
-		});
+		//alert("loginLink clicked");
+		$('#signinupModal').modal("show");
+		$('#loginTab').tab('show');
+		//alert("loginTab shown");
 	});
 	
 	/** 
@@ -59,13 +62,9 @@ $(document).ready(function() {
 	 * on click of registerLink to show the register tab 
 	**/
 	$("#registerLink").click(function() {
-		$('#signinupModal').on('show.bs.modal', function (e) {
-			$('#registerTab').tab('show');
-		});
-		
-		$("#signinupModal").modal({
-			backdrop : "static",
-			keyboard : false
-		});
+		//alert("registerLink clicked");
+		$('#signinupModal').modal("show");
+		$('#registerTab').tab('show');
+		//alert("registerTab shown");
 	});
 });

@@ -476,6 +476,21 @@ a#our-link{
 	font-weight: bold;
 }
 
+#login-form, #register-form{
+	padding: 40px 40px 0px;
+}
+
+#login-button, #register-button{
+	margin-top: 20px;
+}
+
+#signinupModal ul.nav-tabs > li.active > a, #signinupModal ul.nav-tabs > li > a:hover {
+	background-color: #222;
+	background-image: none;
+	color: #FFF;
+	border: 1px solid #222;
+}
+
 /* Pagination CSS starts from here */
 
 .pagination {

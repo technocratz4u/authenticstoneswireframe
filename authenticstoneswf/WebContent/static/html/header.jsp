@@ -53,7 +53,7 @@
       </div>
     </div>
     
-    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="signinupModalLabel" id="signinupModal">
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="signinupModalLabel" id="signinupModal" data-backdrop="static" data-keyboard="false">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -66,65 +66,71 @@
 					<li><a id="loginTab" href="#loginTabContent" data-toggle="tab">Login</a></li>
 					<li><a id="registerTab" href="#registerTabContent" data-toggle="tab">Create Account</a></li>
 				</ul>
-				<div id="myTabContent" class="tab-content">
+				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane fade" id="loginTabContent">
-						<form class="form-horizontal" action="" method="POST">
-							<fieldset>
-								<div id="legend">
-									<legend class="">Login</legend>
-								</div>    
-								<div class="control-group">
-									<!-- Username -->
-									<label class="control-label"  for="username">Username</label>
-									<div class="controls">
-										<input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+						<div class="row">
+							<div class="col-lg-12">
+								<form id="login-form" action="" method="post" role="form" >
+									<div class="form-group">
+										<input name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" type="text">
 									</div>
-								</div>
-								
-								<div class="control-group">
-									<!-- Password-->
-									<label class="control-label" for="password">Password</label>
-									<div class="controls">
-										<input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+									<div class="form-group">
+										<input name="password" id="password" tabindex="2" class="form-control" placeholder="Password" type="password">
 									</div>
-								</div>
-								
-								
-								<div class="control-group">
-									<!-- Button -->
-									<div class="controls">
-										<button class="btn btn-success">Login</button>
+									<div class="text-center">
+										<input tabindex="3" class="" name="remember" id="remember" type="checkbox">
+										<label for="remember"> Remember Me</label>
 									</div>
-								</div>
-							</fieldset>
-						</form>                
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<button id="login-button" tabindex="4" class="btn btn-dark btn-block">Log In</button>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="text-center">
+													<a href="" tabindex="5" class="forgot-password">Forgot Password?</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>             
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="registerTabContent">
-						<form id="tab">
-							<label>Username</label>
-							<input type="text" value="" class="input-xlarge">
-							<label>First Name</label>
-							<input type="text" value="" class="input-xlarge">
-							<label>Last Name</label>
-							<input type="text" value="" class="input-xlarge">
-							<label>Email</label>
-							<input type="text" value="" class="input-xlarge">
-							<label>Address</label>
-							<textarea value="Smith" rows="3" class="input-xlarge">
-							</textarea>
-							
-							<div>
-								<button class="btn btn-primary">Create Account</button>
+						<div class="row">
+							<div class="col-lg-12">
+								<form id="register-form" action="" method="post" role="form" >
+									<div class="form-group">
+										<input name="register-name" id="register-name" tabindex="1" class="form-control" placeholder="Name" value="" type="text">
+									</div>
+									<div class="form-group">
+										<input name="register-email" id="register-email" tabindex="2" class="form-control" placeholder="Email" type="text">
+									</div>
+									<div class="form-group">
+										<input name="register-password" id="register-password" tabindex="3" class="form-control" placeholder="Password" type="password">
+									</div>
+									<div class="form-group">
+										<input name="register-confirm-password" id="register-confirm-password" tabindex="4" class="form-control" placeholder="Confirm Password" type="password">
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<button id="register-button" tabindex="5" class="btn btn-dark btn-block">Register</button>
+											</div>
+										</div>
+									</div>
+								</form>
 							</div>
-						</form>
+						</div>   
 					</div>
 				</div>
 			</div>
 		</div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	        <button type="button" class="btn btn-primary">Save changes</button>
-	      </div>
 	    </div><!-- /.modal-content -->
 	  </div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->

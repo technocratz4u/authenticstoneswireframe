@@ -42,10 +42,10 @@
 			    </div>
             	<ul class="menu">
                     <li>
-                    	<a id="loginLink" href="#">Login</a>
+                    	<a id="loginLink" href="#signinupModal" data-toggle="modal">Login</a>
                     </li>
                     <li class="piped">
-                    	<a id="registerLink" href="#">Register</a>
+                    	<a id="registerLink" href="#signinupModal" data-toggle="modal">Register</a>
                     </li>
                 </ul>
             </div>

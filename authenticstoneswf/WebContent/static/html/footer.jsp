@@ -26,7 +26,7 @@
                     <ul>
                     	<li><a href="<%=request.getContextPath()%>/static/html/termsNconditions.jsp">Terms and conditions</a>
                         </li>
-						<li><a href="<%=request.getContextPath()%>/static/html/returnPolicy.jsp">Return Policy</a></li>
+						<li><a href="<%=request.getContextPath()%>/static/html/return_policy.jsp">Return Policy</a></li>
                         <li><a href="<%=request.getContextPath()%>/static/html/privacy_policy.jsp">Privacy Policy</a>
                         </li>
                         <li><a href="<%=request.getContextPath()%>/static/html/shipping_policy.jsp">Shipping Policy</a>
